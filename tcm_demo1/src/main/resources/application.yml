@@ -1,0 +1,14 @@
+
+# DataSource MainConfig
+spring:
+  thymeleaf:
+    prefix: classpath:dist/
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://a.gamehu4399.top:3366/tcm_database?
+    username: testuser
+    password: passwd
+
+  # Logger MainConfig
